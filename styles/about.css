@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+  font-style: normal;
+    
+}
+.dark_bg{
+    background-color: #222;
+}
+
+#sh_header{
+    background-color: #222 !important;
+}
+
+/* =======================================Sections */
+.m_about {
+    width: 100%;
+    height: 250px;
+    background-image: url("https://preview.colorlib.com/theme/cozastore/images/bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+
+.m_about p {
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-shadow: black;
+}
+
+.m_story {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.m_story>.writing {
+    width: 55%;
+
+}
+
+.m_story>.pic {
+    width: 30%;
+
+}
+
+.m_story>.pic img {
+    width: 100%;
+}
+
+.m_story span,
+.m_mission span {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.m_story p,
+.m_mission p {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.5;
+    line-height: 24px;
+}
+
+.m_mission {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.m_mission>.writing {
+    width: 55%;
+
+}
+
+.m_mission>.pic {
+    width: 30%;
+
+}
+
+.m_mission>.pic img,
+.m_story>.pic img {
+    border: 2px solid black;
+
+}
+
+.m_mission>.pic img {
+    width: 100%;
+}
+
+.m_story>.pic img:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.m_mission>.pic img:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+
+/* ===============================footer */
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    background-color: #222;
+    /* text-align: center; */
+}
+
+.m_categories {
+    /* color: white; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 75%;
+    padding-top: 70px;
+    margin: auto;
+}
+
+footer span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    font-weight: 500;
+
+}
+
+.help {
+    color: white;
+
+}
+
+.categories {
+    color: white;
+}
+
+.getintouch {
+    width: 25%;
+    padding-right: 26px;
+    color: white;
+}
+
+.newsletter {
+    width: 25%;
+    padding-left: 26px;
+    color: white;
+}
+
+.m_payment {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.m_categories a {
+    padding-top: 20px;
+}
+
+.social {
+    margin-top: 60px;
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+
+.sub {
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    color: white;
+    background-color: #007bff;
+
+}
+
+.sub:hover {
+    background-color: white;
+    color: #007bff;
+    transition: all 0.5s;
+}
+
+.getintouch p {
+    opacity: 0.6;
+}
+
+.newsletter p {
+    opacity: 0.6;
+}
+
+.copy {
+    opacity: 0.6;
+}
+
+.social i {
+    padding: 12px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: #007bff;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 40px;
+    opacity: 0.5;
+    transition: all 1.2s ease;
+}
+
+#myBtn:hover {
+
+    opacity: 1;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  
+}

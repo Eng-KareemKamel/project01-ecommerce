@@ -1,0 +1,245 @@
+[
+  {
+    "title": "classic white shirt",
+    "desc": "Timeless white shirt for any occasion.",
+    "price": 35.0,
+    "stock": 80,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-01.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD001",
+    "colors": ["White"],
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "title": "fitted black dress",
+    "desc": "Elegant fitted black dress for evening outings.",
+    "price": 59.0,
+    "stock": 45,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-02.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD002",
+    "colors": ["Black"],
+    "size": ["S", "M", "L"]
+  },
+  {
+    "title": "denim jeans",
+    "desc": "Comfortable and stylish denim for everyday wear.",
+    "price": 49.99,
+    "stock": 100,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-03.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD003",
+    "colors": ["Blue", "Black"],
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "title": "summer floral dress",
+    "desc": "Lightweight floral dress perfect for summer days.",
+    "price": 39.0,
+    "stock": 70,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-04.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD004",
+    "colors": ["Red", "Yellow"],
+    "size": ["S", "M"]
+  },
+  {
+    "title": "sports hoodie",
+    "desc": "Warm, breathable hoodie ideal for workouts.",
+    "price": 60.0,
+    "stock": 120,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-05.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD005",
+    "colors": ["Gray", "Navy"],
+    "size": ["M", "L", "XL"]
+  },
+  {
+    "title": "leather jacket",
+    "desc": "Premium quality leather jacket for a bold look.",
+    "price": 110.0,
+    "stock": 20,
+    "Images": [
+        { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-06.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD006",
+    "colors": ["Black", "Brown"],
+    "size": ["L", "XL"]
+  },
+  {
+    "title": "graphic t-shirt",
+    "desc": "Casual tee with bold graphic print.",
+    "price": 25.0,
+    "stock": 90,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-07.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD007",
+    "colors": ["White", "Black"],
+    "size": ["S", "M", "L"]
+  },
+  {
+    "title": "oversized sweater",
+    "desc": "Comfy oversized sweater for chilly evenings.",
+    "price": 55.0,
+    "stock": 60,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-08.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD008",
+    "colors": ["Beige", "Cream"],
+    "size": ["M", "L"]
+  },
+  {
+    "title": "pleated skirt",
+    "desc": "Elegant pleated skirt with a flowy design.",
+    "price": 42.0,
+    "stock": 75,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-09.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD009",
+    "colors": ["Pink", "Navy"],
+    "size": ["S", "M", "L"]
+  },
+  {
+    "title": "basic cotton tee",
+    "desc": "Soft cotton t-shirt for everyday basics.",
+    "price": 18.0,
+    "stock": 200,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-10.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD010",
+    "colors": ["Gray", "White", "Black"],
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "title": "wool trench coat",
+    "desc": "Stay warm with this stylish wool trench.",
+    "price": 130.0,
+    "stock": 15,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-12.jpg"},
+
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD011",
+    "colors": ["Camel", "Gray"],
+    "size": ["M", "L"]
+  },
+  {
+    "title": "ripped skinny jeans",
+    "desc": "Trendy ripped skinny jeans with stretch.",
+    "price": 48.0,
+    "stock": 65,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-11.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD012",
+    "colors": ["Blue"],
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "title": "buttoned cardigan",
+    "desc": "Classic knit cardigan with front buttons.",
+    "price": 39.99,
+    "stock": 50,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-09.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD013",
+    "colors": ["Olive", "Mustard"],
+    "size": ["M", "L"]
+  },
+
+  {
+    "title": "buttoned cardigan",
+    "desc": "Classic knit cardigan with front buttons.",
+    "price": 39.99,
+    "stock": 50,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-14.jpg"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD013",
+    "colors": ["Olive", "Mustard"],
+    "size": ["M", "L"]
+  },
+  {
+    "title": "ripped skinny jeans",
+    "desc": "Trendy ripped skinny jeans with stretch.",
+    "price": 48.0,
+    "stock": 65,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-13.jpg.webp"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD012",
+    "colors": ["Blue"],
+    "size": ["S", "M", "L", "XL"]
+  },
+  {
+    "title": "ripped skinny jeans",
+    "desc": "Trendy ripped skinny jeans with stretch.",
+    "price": 48.0,
+    "stock": 65,
+    "Images": [
+        {"secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-15.jpg.webp"},
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-01.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-02.jpg" },
+      { "secure_url": "https://preview.colorlib.com/theme/cozastore/images/product-detail-03.jpg" }
+    ],
+    "customId": "PROD012",
+    "colors": ["Blue"],
+    "size": ["S", "M", "L", "XL"]
+  }
+
+]

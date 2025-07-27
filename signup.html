@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body class="f-body">
+    <form id="f-signupForm" class="f-form" novalidate>
+      <h2>Register</h2>
+      <div class="f-labels">
+        <label for="f-username">Username</label>
+        <input type="text" id="f-username" class="f-input"
+          placeholder="Username" />
+        <label for="f-email">Email</label>
+        <input type="email" id="f-email" class="f-input" placeholder="Email" />
+        <label for="f-password">Password</label>
+        <input type="password" id="f-password" class="f-input"
+          placeholder="Password" />
+      </div>
+      <div id="f-signup-message" class="f-message"></div>
+      <button type="submit" class="f-button">SIGN UP</button>
+      <p>Already have an account? <a href="login.html"
+          class="f-link">Login</a></p>
+    </form>
+    <script src="./scripts/signup.js"></script>
+  </body>
+</html>

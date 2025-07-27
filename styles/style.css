@@ -1,0 +1,99 @@
+.f-body {
+  font-family: 'Poppins', sans-serif ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0 16px;
+}
+
+.f-form {
+  background: transparent;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f-input {
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.f-input.input-success {
+  border-color: green;
+}
+
+.f-input.input-error {
+  border-color: red;
+}
+
+.f-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: lighter;
+  font-size: 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.f-button:hover {
+  background-color: #6c89f5;
+  color: white;
+}
+
+.f-link {
+  color: rgb(64, 58, 241);
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.f-link:hover {
+  color: #6c89f5;
+}
+
+
+.f-message {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.f-message.success {
+  color: green;
+}
+
+.f-message.error {
+  color: red;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0 12px;
+    height: auto;
+    align-items: flex-start;
+    padding-top: 60px;
+  }
+
+  .f-form {
+    padding: 24px;
+    width: 100%;
+  }
+}

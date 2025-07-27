@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./styles/stylee.css">
+        <link rel="stylesheet" href="./styles/m_style.css">
+    </head>
+    <body id="pageBody" style="margin-top: 100px;">
+        <!-- <div id="sh_header"></div> -->
+        <header id="product-header">
+            <div class="m_logo">
+                <p><span>COZA</span>STORE</p>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="product.html">Shop</a>
+                <a href="#">Features</a>
+                <a href="#">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <a href="k_cart.html"><i id="shopping-icon"
+                    class="fas fa-shopping-cart"><span
+                        class="cart-count">0</span></i> </a>
+            <div class="m_more"></div>
+            <button id="darkModeToggle"><i id="dark-mode"
+                    class="fa-solid fa-moon"></i></button>
+
+        </header>
+        <section class="container products">
+
+            <button class="sh_searchBtn">Search</button>
+
+            <div class="sh_search">
+                <input type="text" placeholder="🔍 Search">
+
+            </div>
+            <div id="noResults"
+                style="display: none; color: red; margin-top: 50px; text-align: center; font-size: 20px;">
+                🔍 No matching products found.
+            </div>
+
+            <div class="grid" id="sh_productGrid">
+
+            </div>
+
+        </div>
+
+        <button class="sh_load-more-btn">LOAD MORE</button>
+
+        <!-- ===================================popup============================ -->
+
+        <!-- ===============================new================ -->
+        <div id="sh_productGrid" class="sh_productGrid">
+
+            <div id="sh_productModal" class="sh_modal">
+                <div class="sh_modal_content">
+                    <span id="sh_closeModal" class="sh_close">×</span>
+
+                    <div class="sh_modal_layout">
+                        <div class="sh_image_slider ">
+                            <div id="sh_thumbContainer"
+                                class="sh_thumbs"></div>
+                        </div>
+
+                        <div class="sh_main_image_wrapper ">
+                            <img id="sh_mainImage" class="sh_main_image">
+                        </div>
+
+                        <div id="sh_modalInfo" class="sh_info"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- <div id="m_footer"></div> -->
+         <footer>
+            <section class="m_categories">
+                <div class="categories">
+                    <span>CATEGORIES</span>
+                    <a href="#">Women</a>
+                    <a href="#">Men</a>
+                    <a href="#">Shoes</a>
+                    <a href="#">Watches</a>
+                </div>
+                <div class="help">
+                    <span>HELP</span>
+                    <a href="#">Track Order</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">FAQs</a>
+                </div>
+                <div class="getintouch">
+                    <span>GET IN TOUCH</span>
+                    <p>Any questions? Let us know in store at 8th floor, 379
+                        Hudson St, New York, NY 10018 or call us on
+                        (+1) 96 716 6879</p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <span>NEWSLETTER</span>
+                    <p>email@example.com</p>
+                    <button class="sub">SUBSCRIBE</button>
+                </div>
+            </section>
+            <section class="m_payment">
+                <div class="images">
+                    <img src="images/paypal.webp" alt="paypal">
+                    <img src="images/visa.webp" alt="visa">
+                    <img src="images/mastercard.webp" alt="mastercard">
+                    <img src="images/something2.webp" alt="payment">
+                    <img src="images/something.webp" alt="payment">
+                </div>
+                <div class="copy">
+                    <p>Copyright &copy;2025 All rights reserved.</p>
+                </div>
+            </section>
+        </footer>
+        <script src="./scripts/product.js"></script>
+        <!-- <script src="m_js.js"></script> -->
+        <!-- <script src="loadLayout.js"></script> -->
+        <script src="https://kit.fontawesome.com/12c4682f27.js"
+            crossorigin="anonymous"></script>
+        <script src="./scripts/k_script_shltt_integration.js"></script>
+        <script src="./scripts/loadLayout.js"></script>
+    </body>
+</html>

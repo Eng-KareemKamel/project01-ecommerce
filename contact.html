@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact us</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./styles/contact.css">
+        <link rel="stylesheet" href="./styles/m_style.css">
+    </head>
+
+    <body id="pageBody">
+        <header id="product-header">
+            <div class="m_logo">
+                <p><span>COZA</span>STORE</p>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="product.html">Shop</a>
+                <a href="#">Features</a>
+                <a href="#">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <a href="k_cart.html"><i id="shopping-icon"
+                    class="fas fa-shopping-cart"><span
+                        class="cart-count"></span></i> </a>
+            <div class="m_more"></div>
+            <button id="darkModeToggle"><i id="dark-mode"
+                    class="fa-solid fa-moon"></i></button>
+
+        </header>
+        <br>
+        <main>
+
+            <section class="m_contact">
+                <div>
+                    <p>Contact us</p>
+                </div>
+            </section>
+
+            <section class="hero">
+                <div class="message">
+                    <span>Send us a Message</span>
+                    <br>
+                    <input class="input" type="text" value
+                        placeholder="         Your email address">
+                    <br>
+                    <textarea class="txt" rows="7" name
+                        placeholder="    How can we help?"></textarea>
+                    <br>
+                    <button>Submit</button>
+                </div>
+                <div class="address">
+                    <div class="add">
+                        <span>Address</span>
+                        <p>Coza Store Center 8th floor, 379 Hudson St, New York,
+                            NY 10018 US</p>
+                    </div>
+                    <div class="talk">
+                        <span>Let's Talk</span>
+                        <p>+1 800 1236879</p>
+                    </div>
+                    <div class="supp">
+                        <span>Sales Support</span>
+                        <p>contact@example.com</p>
+                    </div>
+                </div>
+            </section>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3023.557736928879!2d-74.01007967428843!3d40.72775148665166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s8th%20floor%2C%20379%20Hudson%20St%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2seg!4v1753382035692!5m2!1sen!2seg"
+                style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </main>
+
+        <!-- <footer>
+            <section class="m_categories">
+                <div class="categories">
+                    <span>CATEGORIES</span>
+                    <a href="#">Women</a>
+                    <a href="#">Men</a>
+                    <a href="#">Shoes</a>
+                    <a href="#">Watches</a>
+                </div>
+                <div class="help">
+                    <span>HELP</span>
+                    <a href="#">Track Order</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">FAQs</a>
+                </div>
+                <div class="getintouch">
+                    <span>GET IN TOUCH</span>
+                    <p>Any questions? Let us know in store at 8th floor, 379
+                        Hudson St, New York, NY 10018 or call us on
+                        (+1) 96 716 6879</p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <span>NEWSLETTER</span>
+                    <p>email@example.com</p>
+                    <button class="sub">SUBSCRIBE</button>
+                </div>
+            </section>
+            <section class="m_payment">
+                <div class="images">
+                    <img src="images/paypal.webp" alt="paypal">
+                    <img src="images/visa.webp" alt="visa">
+                    <img src="images/mastercard.webp" alt="mastercard">
+                    <img src="images/something2.webp" alt="payment">
+                    <img src="images/something.webp" alt="payment">
+                </div>
+                <div class="copy">
+                    <p>Copyright &copy;2025 All rights reserved.</p>
+                </div>
+            </section>
+        </footer> -->
+
+        <div id="m_footer"></div>
+
+        <script src="https://kit.fontawesome.com/12c4682f27.js"
+            crossorigin="anonymous"></script>
+        <script>
+            var currentUserId = JSON.parse(localStorage.getItem("currentUser")).id;
+            var allCarts = JSON.parse(localStorage.getItem("carts")) || {};
+            var cart = allCarts[currentUserId] || [];
+            document.querySelector("#shopping-icon span").textContent = cart.length || "0";
+        </script>
+        <script src="./scripts/m_js.js"></script>
+        <script src="./scripts/loadLayout.js"></script>
+    </body>
+
+</html>

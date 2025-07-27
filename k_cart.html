@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./styles/k_stylesheet.css">
+
+    <title>Simple Shopping Cart</title>
+  </head>
+  <body id="pageBody">
+    <header>
+      <div class="m_logo">
+        <p><span>COZA</span>STORE</p>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Shop</a>
+        <a href="#">Features</a>
+        <a href="#">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    </header>
+
+    <!-- ================================================================================= -->
+
+    <main>
+      <article>
+        <!-- insert home html paage here -->
+        <a id="k_textanchor" href="index.html"><pre>Home   &gt;</pre></a><span
+          class="k_smallgraytxt">Shopping cart</span>
+      </article>
+
+      <section class="k_kartcontainer">
+        <section class="k_kart_items">
+          <table>
+            <thead>
+              <tr>
+                <td colspan="2" class="k_col1">Product</td>
+                <td class="k_col2">Price</td>
+                <td class="k_col3">Quantity</td>
+                <td class="k_col4">Total</td>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- For debugging purposes if we needed to change the appearance of the row -->
+              <!-- <tr>
+              <td colspan="2">
+                <div class="k_product_image_text">
+                  <img src="assets/item-cart-04.jpg.webp" alt=""><span>Fresh Strawberries</span>
+                </div>
+              </td>
+              <td>$ 36.00</td>
+              <td>
+                <div class="k_I_D_div">
+                  <button class="k_I_D_Buttons">-</button>
+                  <span class="k_product_quantity_span">1</span>
+                  <button class="k_I_D_Buttons">+</button></td>
+                </div>
+              <td>$ 36.00</td>
+            </tr> -->
+
+            </tbody>
+          </table>
+        </section>
+
+        <section class="k_checkout k_border">
+          <span class="k_heading_text">Cart Totals</span>
+
+          <div class="k_upperdiv k_dashed_bottom k_padding">
+            <span class="k_subtotaltext k_left_text_chekout">Subtotal : </span>
+            <span class="k_subtotal_amount"></span>
+          </div>
+
+          <div class="k_middlediv k_dashed_bottom k_padding">
+            <div class="k_twocolumns">
+              <span class="k_shippingtext k_left_text_chekout">Shipping :
+              </span>
+              <div class="k_right_column">
+                <p>There are no shipping methods available.<br> Please double
+                  check your address, or contact us if you need any help.</p>
+                <div class="k_calcshipping">
+                  <span>Calculate Shipping</span>
+                  <input list="country_list" placeholder="Select a country ...">
+                  <datalist id="country_list">
+                    <option value="Egypt">Egypt</option>
+                    <option value="KSA">KSA</option>
+                    <option value="UAE">UAE</option>
+                  </datalist>
+
+                  <input type="text" name id placeholder="State / Country">
+
+                  <input type="text" name id placeholder="Postcode / Zip">
+
+                  <button>UPDATE TOTALS</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="k_lowerdiv k_padding">
+            <span class="k_totaltext">Total : </span>
+            <span class="k_total_amount"></span>
+          </div>
+          <button class="k_proceed_checkout">PROCEED TO CHECKOUT</button>
+        </section>
+      </section>
+    </main>
+
+    <!-- ================================================================================= -->
+    <footer>
+      <section class="m_categories">
+        <div class="categories">
+          <span>CATEGORIES</span>
+          <a href="#">Women</a>
+          <a href="#">Men</a>
+          <a href="#">Shoes</a>
+          <a href="#">Watches</a>
+        </div>
+        <div class="help">
+          <span>HELP</span>
+          <a href="#">Track Order</a>
+          <a href="#">Returns</a>
+          <a href="#">Shipping</a>
+          <a href="#">FAQs</a>
+        </div>
+        <div class="getintouch">
+          <span>GET IN TOUCH</span>
+          <p>Any questions? Let us know in store at 8th floor, 379 Hudson St,
+            New York, NY 10018 or call us on (+1) 96 716 6879</p>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+        <div class="newsletter">
+          <span>NEWSLETTER</span>
+          <p>email@example.com</p>
+          <button class="sub">SUBSCRIBE</button>
+        </div>
+      </section>
+      <section class="m_payment">
+        <div class="images">
+          <img src="assets/icon-pay-01.png.webp" alt="paypal">
+          <img src="assets/icon-pay-02.png.webp" alt="visa">
+          <img src="assets/icon-pay-03.png.webp" alt="mastercard">
+          <img src="assets/icon-pay-04.png.webp" alt="payment">
+          <img src="assets/icon-pay-05.png.webp" alt="payment">
+        </div>
+        <div class="copy"><p>Copyright &copy;2025 All rights reserved.</p></div>
+      </section>
+    </footer>
+    <script src="https://kit.fontawesome.com/12c4682f27.js"
+      crossorigin="anonymous"></script>
+    <script src="./scripts/k_script.js"></script>
+
+  </body>
+</html>

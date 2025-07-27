@@ -1,0 +1,301 @@
+html {
+    font-family: "Mulish", sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: auto;
+}
+
+body {
+    /* height: 150vh; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    position: relative;
+    scroll-behavior: smooth;
+    flex-wrap: wrap;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #222;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 12;
+    border: 2px solid #ddd9d9;
+
+}
+i {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.m_logo {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.m_logo span {
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 15px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    color: black;
+}
+
+a:hover {
+    color: #007bff;
+    transition: all 0.4s;
+    opacity: 1;
+}
+
+/* =======================================sections */
+.m_contact {
+    width: 100%;
+    height: 250px;
+    background-image: url("https://preview.colorlib.com/theme/cozastore/images/bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+
+.m_contact p {
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-shadow: black;
+}
+
+.hero {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    line-height: 30px;
+}
+
+.message {
+    border: 2px solid #e9e6e6;
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 80px 0px;
+    box-shadow: #222;
+}
+
+.address {
+    border: 2px solid #e9e6e6;
+    box-shadow: #222;
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.hero span {
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.hero p {
+    font-weight: 300;
+}
+
+.message>.input {
+    width: 70%;
+    height: 40px;
+    margin: 16px 0px;
+}
+
+.message>.txt {
+    width: 70%;
+    height: 150px;
+    margin: 16px 0px;
+}
+
+.message button {
+    width: 70%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    margin: 16px 0px;
+    cursor: pointer;
+}
+
+.message button:hover {
+    background-color: #007bff;
+    transition: all 0.5s;
+}
+
+iframe {
+    margin-top: 100px;
+    width: 80%;
+    height: 400px;
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================Footer */
+footer {
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 400px;
+    background-color: #222;
+    /* text-align: center; */
+}
+
+.m_categories {
+    /* color: white; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 75%;
+    padding-top: 70px;
+    margin: auto;
+}
+
+footer span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    font-weight: 500;
+    /* font-size: 18; */
+
+}
+
+.help {
+    /* width: 25%; */
+    color: white;
+
+}
+
+.categories {
+    /* width: 25%; */
+    color: white;
+}
+
+.getintouch {
+    width: 25%;
+    padding-right: 26px;
+    color: white;
+}
+
+.newsletter {
+    width: 25%;
+    padding-left: 26px;
+    color: white;
+}
+
+.m_payment {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.m_categories a {
+    padding-top: 20px;
+}
+
+.social {
+    margin-top: 60px;
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+
+.sub {
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    color: white;
+    background-color: #007bff;
+
+}
+
+.sub:hover {
+    background-color: white;
+    color: #007bff;
+    transition: all 0.5s;
+}
+
+.getintouch p {
+    opacity: 0.6;
+}
+
+.newsletter p {
+    opacity: 0.6;
+}
+
+.copy {
+    opacity: 0.6;
+}
+
+.social i {
+    padding: 12px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: #007bff;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 40px;
+    opacity: 0.5;
+    transition: all 1.2s ease;
+}
+
+#myBtn:hover {
+
+    opacity: 1;
+}
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
